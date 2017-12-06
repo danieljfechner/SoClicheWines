@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "Main";    
+    Layout = null;
+}
+<html ng-app="myApp">
+<body>
+    <h2>Main</h2>
+    <span>{{name}}</span>
+    <div>
+        How are you doing? Type 0 for bad or anything else for good. <input ng-model="moodInput" equals {{moodInput}} /> Ahh, you are doing: {{mood(moodInput)}}.
+    </div>
+</body>
+</html>
